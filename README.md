@@ -1,0 +1,1 @@
+# autoset-status-cypress-testrail-reporter
