@@ -14,7 +14,7 @@ The original package by Milutin is awesome!
 ## Install
 
 ```shell
-$ npm install salty-cypress-testrail-reporter --save-dev
+$ npm install ---
 ```
 
 ## Usage
