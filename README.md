@@ -1,4 +1,4 @@
-# TestRail Reporter for Cypress
+# TestRail Reporter for specific TestRun for Cypress
 
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
