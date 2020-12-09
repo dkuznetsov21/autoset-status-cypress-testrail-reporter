@@ -71,7 +71,7 @@ You can read the whole TestRail documentation [here](http://docs.gurock.com/).
 
 ## Author
 
-Author: Spencer Kekauoha - [github](https://github.com/skekauoha)
+Author: Dmytro Kuznetsov - [github](https://github.com/dkuznetsov21)
 
 ## License
 
