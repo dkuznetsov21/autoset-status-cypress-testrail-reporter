@@ -11,7 +11,7 @@ Allows you to set statuses for test cases in a specific TestRun.
 ## Install
 
 ```shell
-$ npm install ---
+$ npm i autoset-status-cypress-testrail-reporter
 ```
 
 ## Usage
