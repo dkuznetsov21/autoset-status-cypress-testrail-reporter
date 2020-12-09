@@ -10,8 +10,6 @@ Cloned from the original package [cypress-testrail-reporter](https://github.com/
 
 The original package by Milutin is awesome!
 
-Allows for options to create a new test run on **cypress run** or if you want the option to create one manually.
-
 
 ## Install
 
@@ -32,10 +30,7 @@ Add reporter to your `cypress.json`:
     "username": "username",
     "password": "password",
     "projectId": idNumber,
-    "suiteId": suiteNumber,
-    "createTestRun": "boolean",
     "runId": testRunNumber,
-    "runName": "Test Run Name"
   }
 }
 ```
@@ -54,7 +49,7 @@ it("Can authenticate a valid userC123", ...
 
 ## Reporter Options
 
-**domain**: _string_ domain name of your TestRail instance (e.g. for a hosted instance _instance.testrail.com_).
+**domain**: _string_ domain name of your TestRail instance (e.g. for a hosted instance _https://instance.testrail.com_).
 
 **username**: _string_ email of the user under which the test run will be created.
 
@@ -62,20 +57,7 @@ it("Can authenticate a valid userC123", ...
 
 **projectId**: _number_ project with which the tests are associated.
 
-**suiteId**: _number_ suite with which the tests are associated.
-
-**createTestRun**: _boolean_ **true** if you want a test run created for you : **false** if you want to manually create your own test run on TestRail.  If you select **false**, you have to pass a value into the runID property.
-
-**runId**: _number_ (optional: only necessary if createTestRun is set to true) a specific test run id number.
-
-**runName**: _string_ (optional) name of the Testrail run.
-
-# Functionality Update 01/04/2019
-We were having issues where we wanted to run a test run once a day using multiple spec files.  However, when `createTestRun: true`, the testrail reporter would create a testrun for each spec file which is not what we wanted.
-
-I included some logic for when `createTestRun: true` that checks the most recently created test run in Testrail with the current date you are running your test.
-
-The testrail reporter will create a single testrun for the day and push all results to that newly created testrun.
+**runId**: _number_ a specific test run id number.
 
 ## TestRail Settings
 
