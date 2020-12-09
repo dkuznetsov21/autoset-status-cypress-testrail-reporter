@@ -1,15 +1,12 @@
 # TestRail Reporter for Cypress
 
-[![version](https://img.shields.io/npm/v/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/cypress-testrail-reporter)
-[![downloads](https://img.shields.io/npm/dt/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/cypress-testrail-reporter)
-[![MIT License](https://img.shields.io/github/license/Vivify-Ideas/cypress-testrail-reporter.svg)](https://github.com/Vivify-Ideas/cypress-testrail-reporter/blob/master/LICENSE.md)
-
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
 Cloned from the original package [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) by [Milutin Savovic](https://github.com/mickosav)
 
 The original package by Milutin is awesome!
 
+Allows you to set statuses for test cases in a specific TestRun.
 
 ## Install
 
@@ -24,9 +21,9 @@ Add reporter to your `cypress.json`:
 ```json
 ...
 {
-  "reporter": "salty-cypress-testrail-reporter",
+  "reporter": "autoset-status-cypress-testrail-reporter",
   "reporterOptions": {
-    "domain": "yourdomain.testrail.com",
+    "domain": "https://yourdomain.testrail.io",
     "username": "username",
     "password": "password",
     "projectId": idNumber,
@@ -81,4 +78,3 @@ This project is licensed under the [MIT license](/LICENSE.md).
 
 * [Milutin Savovic](https://github.com/mickosav), author of the [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) repository that was cloned.
 * [Pierre Awaragi](https://github.com/awaragi), owner of the [mocha-testrail-reporter](https://github.com/awaragi/mocha-testrail-reporter) repository that was forked.
-* [Valerie Thoma](https://github.com/ValerieThoma) and [Aileen Santos](https://github.com/asantos3026) for proofreading the README.md file and making it more understandable.
