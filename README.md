@@ -1,5 +1,9 @@
 # TestRail Reporter for specific TestRun for Cypress
 
+[![version](https://img.shields.io/npm/v/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/autoset-status-cypress-testrail-reporter)
+[![downloads](https://img.shields.io/npm/dt/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/autoset-status-cypress-testrail-reporter)
+[![MIT License](https://img.shields.io/github/license/Vivify-Ideas/cypress-testrail-reporter.svg)](https://github.com/dkuznetsov21/autoset-status-cypress-testrail-reporter/blob/main/LICENSE.md)
+
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
 Cloned from the original package [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) by [Milutin Savovic](https://github.com/mickosav)
@@ -23,7 +27,7 @@ Add reporter to your `cypress.json`:
 {
   "reporter": "autoset-status-cypress-testrail-reporter",
   "reporterOptions": {
-    "domain": "https://yourdomain.testrail.io",
+    "host": "https://yourdomain.testrail.io",
     "username": "username",
     "password": "password",
     "projectId": idNumber,
@@ -46,7 +50,7 @@ it("Can authenticate a valid userC123", ...
 
 ## Reporter Options
 
-**domain**: _string_ domain name of your TestRail instance (e.g. for a hosted instance _https://instance.testrail.com_).
+**host**: _string_ domain name of your TestRail instance (e.g. for a hosted instance _https://instance.testrail.com_).
 
 **username**: _string_ email of the user under which the test run will be created.
 
