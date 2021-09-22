@@ -27,7 +27,7 @@ Add reporter to your `cypress.json`:
 ```json
 ...
 {
-  "reporter": "autoset-status-cypress-testrail-reporter",
+  "reporter": "cypress-custom-testrail-reporter",
   "reporterOptions": {
     "host": "https://yourdomain.testrail.io",
     "username": "username",
