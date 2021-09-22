@@ -1,6 +1,6 @@
 {
-  "name": "autoset-status-cypress-testrail-reporter2",
-  "version": "1.1.2",
+  "name": "ypress-testrail-reporter",
+  "version": "1.0.0",
   "description": "A TestRail auto-set status reporter for Test Run cypress including TestRail API basic library",
   "main": "index.js",
   "private": false,
@@ -34,7 +34,8 @@
   "dependencies": {
     "axios": "^0.21.4",
     "chalk": "^4.1.2",
-    "mocha": "^9.1.1"
+    "mocha": "^9.1.1",
+    "npmrc": "^1.1.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.22",
