@@ -6,6 +6,8 @@
 
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
+Cloned from [dkuznetsov21/autoset-status-cypress-testrail-reporter](https://github.com/dkuznetsov21/autoset-status-cypress-testrail-reporter)
+
 Cloned from the original package [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) by [Milutin Savovic](https://github.com/mickosav)
 
 The original package by Milutin is awesome!
