@@ -76,7 +76,7 @@ var CypressTestRailReporter = /** @class */ (function (_super) {
         (_a = _this.results).push.apply(_a, results);
       }
     });
-    runner.on("skip", function (test) {
+    runner.on("pending", function (test) {
       var _a;
       var caseIds = shared_1.titleToCaseIds(test.title);
       if (caseIds.length > 0) {
