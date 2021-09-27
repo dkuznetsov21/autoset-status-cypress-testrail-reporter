@@ -59,7 +59,6 @@ export class CypressTestRailReporter extends reporters.Spec {
           return {
             case_id: caseId,
             status_id: Status.Blocked,
-            comment: `${test.err.message}`,
           };
         });
         this.results.push(...results);

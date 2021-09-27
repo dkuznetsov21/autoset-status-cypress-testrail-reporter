@@ -84,7 +84,6 @@ var CypressTestRailReporter = /** @class */ (function (_super) {
           return {
             case_id: caseId,
             status_id: testrail_interface_1.Status.Blocked,
-            comment: "" + test.err.message,
           };
         });
         (_a = _this.results).push.apply(_a, results);
